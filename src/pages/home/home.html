@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <div>
+    <button ion-button round full (click)="sacarFoto()">Sacar Foto </button>
+  </div>
+
+  <div>
+    <img [src]= "foto" *ngIf="foto"/>
+  </div>
+
+</ion-content>
